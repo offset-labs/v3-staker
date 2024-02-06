@@ -8,12 +8,12 @@ import './libraries/RewardMath.sol';
 import './libraries/NFTPositionInfo.sol';
 import './libraries/TransferHelperExtended.sol';
 
-import '@uniswap/v3-core/contracts/interfaces/IUniswapV3Factory.sol';
-import '@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
-import '@uniswap/v3-core/contracts/interfaces/IERC20Minimal.sol';
+import '@offsetcarbon/v3-core/contracts/interfaces/IUniswapV3Factory.sol';
+import '@offsetcarbon/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
+import '@offsetcarbon/v3-core/contracts/interfaces/IERC20Minimal.sol';
 
-import '@uniswap/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol';
-import '@uniswap/v3-periphery/contracts/base/Multicall.sol';
+import '@offsetcarbon/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol';
+import '@offsetcarbon/v3-periphery/contracts/base/Multicall.sol';
 
 /// @title Uniswap V3 canonical staking interface
 contract UniswapV3Staker is IUniswapV3Staker, Multicall {

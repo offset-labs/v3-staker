@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity =0.7.6;
 
-import '@uniswap/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol';
-import '@uniswap/v3-core/contracts/interfaces/IUniswapV3Factory.sol';
-import '@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
+import '@offsetcarbon/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol';
+import '@offsetcarbon/v3-core/contracts/interfaces/IUniswapV3Factory.sol';
+import '@offsetcarbon/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
 
-import '@uniswap/v3-periphery/contracts/libraries/PoolAddress.sol';
+import '@offsetcarbon/v3-periphery/contracts/libraries/PoolAddress.sol';
 
 /// @notice Encapsulates the logic for getting info about a NFT token ID
 library NFTPositionInfo {

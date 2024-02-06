@@ -1,17 +1,17 @@
 {
-  "name": "@uniswap/v3-staker",
-  "description": "Canonical liquidity mining contract for Uniswap V3",
+  "name": "@offsetcarbon/v3-staker",
+  "description": "Canonical liquidity mining contract for OffsetCarbon V3",
   "license": "GPL-3.0-or-later",
-  "version": "1.0.2",
-  "homepage": "https://uniswap.org",
+  "version": "1.0.3",
+  "homepage": "https://offsetcarbon.xyz",
   "keywords": [
-    "uniswap",
+    "offsetcarbon",
     "liquidity mining",
     "v3"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-v3-staker"
+    "url": "git+https://github.com/offset-labs/v3-staker.git"
   },
   "files": [
     "contracts",
@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "3.4.1-solc-0.7-2",
-    "@uniswap/v3-core": "1.0.0",
-    "@uniswap/v3-periphery": "^1.0.1"
+    "@offsetcarbon/v3-core": "1.0.2",
+    "@offsetcarbon/v3-periphery": "^1.4.4"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
@@ -70,5 +70,14 @@
     "test": "hardhat test",
     "clear-cache": "rm -rf artifacts/ cache/ typechain/",
     "coverage": "RUN_COVERAGE=1 hardhat coverage"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/offset-labs/v3-staker/issues"
+  },
+  "main": ".eslintrc.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "author": ""
 }

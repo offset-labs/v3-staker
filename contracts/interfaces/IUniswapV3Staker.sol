@@ -4,12 +4,12 @@ pragma abicoder v2;
 
 import '@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol';
 
-import '@uniswap/v3-core/contracts/interfaces/IUniswapV3Factory.sol';
-import '@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
-import '@uniswap/v3-core/contracts/interfaces/IERC20Minimal.sol';
+import '@offsetcarbon/v3-core/contracts/interfaces/IUniswapV3Factory.sol';
+import '@offsetcarbon/v3-core/contracts/interfaces/IUniswapV3Pool.sol';
+import '@offsetcarbon/v3-core/contracts/interfaces/IERC20Minimal.sol';
 
-import '@uniswap/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol';
-import '@uniswap/v3-periphery/contracts/interfaces/IMulticall.sol';
+import '@offsetcarbon/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol';
+import '@offsetcarbon/v3-periphery/contracts/interfaces/IMulticall.sol';
 
 /// @title Uniswap V3 Staker Interface
 /// @notice Allows staking nonfungible liquidity tokens in exchange for reward tokens
